@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@digdir/designsystemet": "^0.0.8"
+    "@digdir/designsystemet": "^0.0.9"
   }
 }
