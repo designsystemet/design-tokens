@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "designsystemet tokens"
+    "build": "designsystemet tokens -o ./css"
   },
   "author": "",
   "license": "ISC",
