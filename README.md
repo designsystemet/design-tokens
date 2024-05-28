@@ -2,14 +2,12 @@
 
 ## Get started 
 
-Install dependencies.
+1. Install dependencies.
 ```sh
 npm i
 ```
 
-## CSS tokens
-
-Run the `build` script to generate tokens in CSS.
+2. Run the `build` script to generate tokens in CSS.
 
 ```sh
 npm run build
