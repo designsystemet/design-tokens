@@ -1,3 +1,19 @@
 # Designsystemet design tokens template
 
-Run script `build` to build CSS variables from `design-tokens`.
+## Get started 
+
+Install dependencies.
+```sh
+npm i
+```
+
+## CSS tokens
+
+Run the `build` script to generate tokens in CSS.
+
+```sh
+npm run build
+```
+
+
+
