@@ -11,6 +11,7 @@
     "themes/theme",
     "themes/theme2",
     "semantic/color",
-    "semantic/style"
+    "semantic/style",
+    "Figma/components"
   ]
 }
