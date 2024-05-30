@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@digdir/designsystemet": "^0.1.0-alpha.2"
   }
 }
