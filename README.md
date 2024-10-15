@@ -3,6 +3,8 @@
 **Use the [Theme builder](https://theme.designsystemet.no/) to generate design tokens**
 
 
+<details>
+  <summary>old</summary>
 ## Beta Designsystemet design tokens template
 
 **_Planned breaking change:
@@ -21,3 +23,4 @@ npm i
 ```sh
 npm run build
 ```
+</details>
