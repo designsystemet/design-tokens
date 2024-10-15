@@ -1,9 +1,14 @@
-# Beta Designsystemet design tokens template
+# ⚠ This template is deprecated. ⚠
+
+**Use the [Theme builder](https://theme.designsystemet.no/) to generate design tokens**
+
+
+## Beta Designsystemet design tokens template
 
 **_Planned breaking change:
 Token property names will be converted to [DTCG format](https://v4.styledictionary.com/info/dtcg/) once [Style Dictionary v4](https://v4.styledictionary.com/) and [Token Studio v2](https://tokens.studio/) is released_**
 
-## Get started
+### Get started
 
 1. Install dependencies.
 
