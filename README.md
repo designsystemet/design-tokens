@@ -1,26 +1,14 @@
-# ⚠ This template is deprecated. ⚠
+# Designsystemet Design Tokens
 
-**Use the [Theme builder](https://theme.designsystemet.no/) to generate design tokens**
+This is a repository that will autogenerate design tokens when the config file is updated.
 
+## How to use
 
-<details>
-  <summary>old</summary>
-## Beta Designsystemet design tokens template
+1. Fork this repository.
+2. Update the `designsystemet.config.json` file with your theme from [theme.designsystemet.no](https://theme.designsystemet.no).
+  2.1. You can do this directly in github by clicking the pencil icon when viewing the file.
+3. Commit your changes.
 
-**_Planned breaking change:
-Token property names will be converted to [DTCG format](https://v4.styledictionary.com/info/dtcg/) once [Style Dictionary v4](https://v4.styledictionary.com/) and [Token Studio v2](https://tokens.studio/) is released_**
+## Considerations
 
-### Get started
-
-1. Install dependencies.
-
-```sh
-npm i
-```
-
-2. Run the `build` script to generate tokens in CSS.
-
-```sh
-npm run build
-```
-</details>
+This repository is intended to be used when testing Designsystemet. We do not recommend using this repository in production.

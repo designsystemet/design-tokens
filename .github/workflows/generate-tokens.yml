@@ -1,0 +1,35 @@
+name: Generate Design Tokens
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'designsystemet.config.json'
+
+jobs:
+  generate-tokens:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      
+      - name: Generate design tokens
+        run: npx --yes @digdir/designsystemet@latest tokens create --config designsystemet.config.json --clean
+      
+      - name: Commit generated tokens
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --staged --quiet || git commit -m "chore: regenerate design tokens"
+          git push

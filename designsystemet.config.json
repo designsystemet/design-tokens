@@ -1,0 +1,14 @@
+{
+  "themes": {
+    "sample-theme": {
+      "colors": {
+        "main": { "primary": "#0062BA" },
+        "neutral": "#24272B"
+      },
+      "borderRadius": 4,
+      "typography": {
+        "fontFamily": "Inter"
+      }
+    }
+  }
+}
