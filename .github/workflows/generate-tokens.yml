@@ -25,7 +25,10 @@ jobs:
       
       - name: Generate design tokens
         run: npx --yes @digdir/designsystemet@latest tokens create --config designsystemet.config.json --clean
-      
+
+      - name: Build design tokens
+        run: npx --yes @digdir/designsystemet@latest tokens build --clean
+        
       - name: Commit generated tokens
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
